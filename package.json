@@ -1,0 +1,14 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": " KROM SYSTEMS",
+  "scripts": {
+    "build": "if-env TYPE=server && (cd server && npm install) || (cd frondend && npm install)",
+    "server":" node ./server/server.js",
+    "client": "cd frondend && npm start"
+  },
+  "author": "Leonard Mutuku",
+  "dependencies": {
+    "if-env": "^1.0.4"
+  }
+}
